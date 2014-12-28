@@ -1,3 +1,10 @@
+'''
+Write a program that prints out the final series of numbers where those divisible by X, 
+Y and both are replaced by “F” for fizz, “B” for buzz and “FB” for fizz buzz.
+
+https://www.codeeval.com/open_challenges/1/
+'''
+
 import sys
 
 test_cases = open(sys.argv[1],"r")
